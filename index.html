@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sissy's Bielefeld - Smashburger & Cookies</title>
+    <meta
+      name="description"
+      content="Sissy's Bielefeld: handgemachte Potato Buns, Smashburger, Buttermilk Chicken, Loaded Fries, Dips und frische Cookies an der Herforder Str. 60."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Sissy's home">
+        <img src="References/Logo.jpg" alt="Sissy's logo">
+        <span>Sissy's</span>
+      </a>
+      <nav id="pageNav" class="nav-links" aria-label="Seitenbereiche">
+        <a href="#favorites">Menü</a>
+        <a href="#builder">Bau dein Menü</a>
+        <a href="#story">Story</a>
+        <a href="#visit">Besuch</a>
+      </nav>
+      <a class="nav-order" href="https://sissys.food/" target="_blank" rel="noopener">Bestellen</a>
+      <button class="menu-toggle" type="button" aria-controls="pageNav" aria-expanded="false" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pink">
+        <div class="hero-copy reveal">
+          <p class="kicker">100% halal, handgemachte Potato Buns</p>
+          <h1>Smash it like Sissy's</h1>
+          <p class="hero-lede">
+            Smashburger, Buttermilk Chicken, Loaded Fries und Cookies von der
+            Herforder Str. 60 in Bielefeld.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">Menü ansehen</a>
+            <a class="button button-light" href="#visit">Adresse</a>
+          </div>
+          <div class="delivery-row" aria-label="Delivery partners">
+            <span>Wolt</span>
+            <span>Uber Eats</span>
+            <span>Lieferando</span>
+          </div>
+        </div>
+
+        <div class="hero-media reveal" aria-label="Featured food collage">
+          <div class="hero-burger-frame">
+            <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+          </div>
+        </div>
+
+        <aside class="hero-info reveal" aria-label="Restaurant details">
+          <div>
+            <span class="info-label">Adresse</span>
+            <strong>Herforder Str. 60</strong>
+            <span>33602 Bielefeld</span>
+          </div>
+          <div>
+            <span class="info-label">Küche</span>
+            <strong>Beef, Chicken, Fries</strong>
+            <span>Cookies frisch gebacken</span>
+          </div>
+          <div>
+            <span class="info-label">Bestellen</span>
+            <strong>Lieferung oder Abholung</strong>
+            <span>Wähle deine Plattform</span>
+          </div>
+        </aside>
+      </section>
+
+      <div class="marquee" aria-label="Brand highlights">
+        <div class="marquee-track">
+          <span>Burgerkunst mit Charakter</span>
+          <span>Smashburgers</span>
+          <span>Buttermilk Chicken</span>
+          <span>Loaded Fries</span>
+          <span>Cookies</span>
+          <span>100% Halal</span>
+          <span>Burgerkunst mit Charakter</span>
+          <span>Smashburgers</span>
+          <span>Buttermilk Chicken</span>
+          <span>Loaded Fries</span>
+          <span>Cookies</span>
+          <span>100% Halal</span>
+        </div>
+      </div>
+
+      <section id="favorites" class="favorites section-pink">
+        <div class="section-heading reveal">
+          <p class="kicker">Sissy's Favoriten</p>
+          <h2>Der erste Biss muss knallen.</h2>
+          <a href="#menu" class="text-link">Ganzes Menü</a>
+        </div>
+        <div class="favorite-grid">
+          <article class="favorite-card tilt-left reveal">
+            <span class="price-pill">9 EUR</span>
+            <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+            <h3>Chili Cheese</h3>
+            <p>Smash Beef, Cheddar, Jalapenos, Chili-Mayo und Käsesoße.</p>
+          </article>
+          <article class="favorite-card tilt-right reveal">
+            <span class="price-pill">9 EUR</span>
+            <img src="Assets/generated/garlic-chicken.png" alt="Garlic Chicken Burger">
+            <h3>Garlic Chicken</h3>
+            <p>Buttermilk Chicken, Cheddar, Tomate, Zwiebeln und Knoblauchmayo.</p>
+          </article>
+          <article class="favorite-card tilt-left reveal">
+            <span class="price-pill">11.5 EUR</span>
+            <img src="Assets/official/beef-melt.png" alt="Official Sissy's Beef Melt">
+            <h3>Beef Melt</h3>
+            <p>Double smashed Beef, Potato Toast, Gurken und Burgersoße.</p>
+          </article>
+          <article class="favorite-card tilt-right reveal">
+            <span class="price-pill">4.9 EUR</span>
+            <img src="Assets/generated/cookie-chip.png" alt="Chocolate chip cookie">
+            <h3>Cookies</h3>
+            <p>Frisch gebacken, weich in der Mitte und perfekt zum Schluss.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="builder" class="builder section-pink">
+        <div class="builder-copy reveal">
+          <p class="kicker">Bau dir dein Sissy's</p>
+          <h2>Bau dein Sissy's.</h2>
+          <p>
+            Starte mit deinem Burger und mach daraus dein Menü mit Fries,
+            Getränk, Extras und Dip.
+          </p>
+          <div class="builder-total" aria-live="polite">
+            <span>Vorschau</span>
+            <strong id="builderTotal">15 EUR</strong>
+          </div>
+        </div>
+        <div class="builder-steps reveal">
+          <div class="step-panel" data-step="1">
+            <span class="step-number">1</span>
+            <h3>Wähle deinen Bun</h3>
+            <button class="choice is-active" data-price="0">Classic Sissy's Potato Bun</button>
+            <button class="choice" data-price="0">Martin's Potato Roll</button>
+            <button class="choice" data-price="1">Glutenfrei</button>
+          </div>
+          <div class="step-panel" data-step="2">
+            <span class="step-number">2</span>
+            <h3>Wähle dein Menü</h3>
+            <button class="choice is-active" data-price="0">Nur Burger</button>
+            <button class="choice" data-price="7">Fries + Getränk</button>
+            <button class="choice" data-price="9">Fries + Getränk + Dip</button>
+          </div>
+          <div class="step-panel" data-step="3">
+            <span class="step-number">3</span>
+            <h3>Extras & Dips</h3>
+            <div class="dip-strip">
+              <img src="Assets/generated/dips.png" alt="Assorted Sissy's dips">
+            </div>
+            <button class="choice is-active" data-price="0">Kein extra Dip</button>
+            <button class="choice" data-price="1">Knoblauchmayo dazu</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof section-white">
+        <div class="proof-item reveal">
+          <strong>100%</strong>
+          <span>Halal</span>
+        </div>
+        <div class="proof-item reveal">
+          <strong>Potato</strong>
+          <span>Handgemachte Buns</span>
+        </div>
+        <div class="proof-item reveal">
+          <strong>5K+</strong>
+          <span>Instagram Follower</span>
+        </div>
+        <div class="proof-item reveal">
+          <strong>60</strong>
+          <span>Herforder Str.</span>
+        </div>
+      </section>
+
+      <section id="story" class="story section-pink">
+        <div class="story-copy reveal">
+          <p class="kicker">Neuer Look, gleiches Sissy's</p>
+          <h2>Neuer Look. Gleiches Sissy's.</h2>
+          <p>
+            Pinke Fassade, schwarze Wandgrafik, direkte Social Updates und
+            Essen, das fotografiert wird, bevor es weg ist.
+          </p>
+          <a class="button button-blue" href="https://www.instagram.com/sissys.bielefeld/" target="_blank" rel="noopener">
+            Auf Instagram folgen
+          </a>
+        </div>
+        <div class="story-gallery reveal">
+          <figure class="photo-frame large">
+            <img src="Assets/generated/storefront.png" alt="Generated Sissy's storefront in Bielefeld style">
+            <figcaption>Herforder Str. 60</figcaption>
+          </figure>
+          <figure class="photo-frame small rotate-a">
+            <img src="Assets/generated/interior.png" alt="Generated pink Sissy's interior">
+            <figcaption>Pinke Stühle, schwarze Wände</figcaption>
+          </figure>
+          <figure class="photo-frame small rotate-b product-frame">
+            <img src="Assets/generated/chili-fries.png" alt="Generated chili cheese fries">
+            <figcaption>Loaded Fries</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="menu" class="menu section-pink">
+        <div class="menu-top reveal">
+          <div>
+            <p class="kicker">Menü</p>
+            <h2>Burger. Nicht langweilig.</h2>
+          </div>
+          <div class="menu-tabs" role="tablist" aria-label="Menu filters">
+            <button class="menu-tab is-active" data-filter="all" type="button">Alles</button>
+            <button class="menu-tab" data-filter="burger" type="button">Smash</button>
+            <button class="menu-tab" data-filter="chicken" type="button">Chicken</button>
+            <button class="menu-tab" data-filter="side" type="button">Fries</button>
+            <button class="menu-tab" data-filter="sweet" type="button">Cookies</button>
+          </div>
+        </div>
+
+        <div class="menu-board reveal">
+          <article class="menu-card" data-category="burger">
+            <img src="Assets/official/cheeseburger.png" alt="Official Sissy's Classic Cheese Burger">
+            <div>
+              <h3>Classic Cheese</h3>
+              <p>Smashed Beef, Potato Bun, Cheddar, Gurken, Ketchup, Senf.</p>
+            </div>
+            <strong>8 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="burger">
+            <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+            <div>
+              <h3>Chili Cheese</h3>
+              <p>Cheddar, Jalapenos, Chili-Mayo, Mayo und Käsesoße.</p>
+            </div>
+            <strong>9 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="burger">
+            <img src="Assets/official/joppie-bacon.png" alt="Official Sissy's Joppie Bacon Burger">
+            <div>
+              <h3>Joppie Bacon</h3>
+              <p>Turkey Bacon, Tomate, Salat, Zwiebel, Mayo und Joppie Sauce.</p>
+            </div>
+            <strong>9 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="burger">
+            <img src="Assets/official/beef-melt.png" alt="Official Sissy's Beef Melt">
+            <div>
+              <h3>Beef Melt</h3>
+              <p>Double smashed Beef, Toast, Cheddar, Gurken und Burgersoße.</p>
+            </div>
+            <strong>11.5 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="chicken">
+            <img src="Assets/generated/garlic-chicken.png" alt="Garlic Chicken Burger">
+            <div>
+              <h3>Garlic Chicken</h3>
+              <p>Buttermilk Chicken, Potato Bun, Cheddar und Knoblauchmayo.</p>
+            </div>
+            <strong>9 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="side">
+            <img src="Assets/generated/chili-fries.png" alt="Chili cheese fries">
+            <div>
+              <h3>Chili Cheese Fries</h3>
+              <p>Fries, Cheddar, Käsesoße und Jalapenos.</p>
+            </div>
+            <strong>5 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="sweet">
+            <img src="Assets/generated/cookie-chip.png" alt="Birthday Cake Cookie">
+            <div>
+              <h3>Birthday Cake</h3>
+              <p>Weicher Cookie mit Frosting, Sprinkles und Sissy's Energy.</p>
+            </div>
+            <strong>4.9 EUR</strong>
+          </article>
+          <article class="menu-card" data-category="sweet">
+            <img src="Assets/generated/cookie-chip.png" alt="Bueno Cookie">
+            <div>
+              <h3>Bueno</h3>
+              <p>Bestseller-Cookie mit cremigem Topping und Chocolate Crunch.</p>
+            </div>
+            <strong>4.9 EUR</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="social section-pink">
+        <div class="section-heading reveal">
+          <p class="kicker">Von Instagram bis zur Theke</p>
+          <h2>Folgen für Food, Umbau und Updates.</h2>
+        </div>
+        <div class="social-strip reveal">
+          <img src="Assets/generated/storefront.png" alt="Generated Sissy's storefront social frame">
+          <img src="Assets/generated/interior.png" alt="Generated Sissy's interior social frame">
+          <img src="Assets/official/chili-cheese.png" alt="Official Sissy's chili burger social frame">
+          <img src="Assets/generated/chili-fries.png" alt="Generated chili fries social frame">
+          <img src="Assets/generated/cookie-chip.png" alt="Generated cookie social frame">
+        </div>
+      </section>
+
+      <section id="visit" class="visit section-pink">
+        <div class="visit-copy reveal">
+          <p class="kicker">In Bielefeld. Bestellen & genießen.</p>
+          <h2>Bestell dein Sissy's.</h2>
+          <div class="visit-actions">
+            <a class="button button-dark" href="https://sissys.food/" target="_blank" rel="noopener">Offizielle Bestellseite</a>
+            <a class="button button-blue" href="https://wolt.com/de/deu/bielefeld/restaurant/sissys" target="_blank" rel="noopener">Wolt</a>
+            <a class="button button-light" href="https://www.lieferando.de/speisekarte/sissys" target="_blank" rel="noopener">Lieferando</a>
+          </div>
+        </div>
+        <div class="visit-panel reveal">
+          <img src="Assets/generated/storefront.png" alt="Generated Sissy's storefront">
+          <div class="location-badge">
+            <span>Herforder</span>
+            <strong>Str. 60</strong>
+            <span>Bielefeld</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section-white">
+        <h2 class="reveal">FAQ</h2>
+        <details class="reveal">
+          <summary>Ist alles halal?</summary>
+          <p>100% halal.</p>
+        </details>
+        <details class="reveal">
+          <summary>Kann ich vor Ort essen?</summary>
+          <p>Die Adresse ist Herforder Str. 60, 33602 Bielefeld. Abholung und Lieferung sind möglich.</p>
+        </details>
+        <details class="reveal">
+          <summary>Gibt es vegetarische Optionen?</summary>
+          <p>Das Menü verweist auf vegetarische Falafel-Varianten und Dips. Die aktuelle Auswahl bitte vor dem Bestellen prüfen.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="References/Logo.jpg" alt="Sissy's logo">
+        <strong>Sissy's</strong>
+      </div>
+      <div>
+        <strong>Herforder Str. 60</strong>
+        <span>33602 Bielefeld</span>
+      </div>
+      <div>
+        <strong>Links</strong>
+        <a href="#menu">Menü</a>
+        <a href="#visit">Bestellen</a>
+      </div>
+      <div>
+        <strong>Instagram</strong>
+        <a href="https://www.instagram.com/sissys.bielefeld/" target="_blank" rel="noopener">@sissys.bielefeld</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
