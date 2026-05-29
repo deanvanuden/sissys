@@ -1,0 +1,28 @@
+[
+  {
+    "name": "desktop",
+    "viewport": "1440x900",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "brandImages": 0,
+    "blackArrowOrnaments": 0,
+    "generatedFrameOverlays": 0,
+    "bigUnderlines": 0,
+    "navHeight": 70,
+    "overflows": [],
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "viewport": "390x760",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "brandImages": 0,
+    "blackArrowOrnaments": 0,
+    "generatedFrameOverlays": 0,
+    "bigUnderlines": 0,
+    "navHeight": 62,
+    "overflows": [],
+    "errors": []
+  }
+]

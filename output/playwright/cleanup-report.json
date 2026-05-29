@@ -1,0 +1,42 @@
+[
+  {
+    "name": "desktop",
+    "viewport": "1440x900",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "brandImages": 0,
+    "blackArrowOrnaments": 0,
+    "bigUnderlines": 0,
+    "nestedFavoriteFrames": 0,
+    "nestedStepFrames": 0,
+    "nestedMenuFrames": 0,
+    "nestedSocialFrames": 0,
+    "navHeight": 70,
+    "overflows": [],
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "viewport": "390x760",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "brandImages": 0,
+    "blackArrowOrnaments": 0,
+    "bigUnderlines": 0,
+    "nestedFavoriteFrames": 0,
+    "nestedStepFrames": 0,
+    "nestedMenuFrames": 0,
+    "nestedSocialFrames": 0,
+    "navHeight": 62,
+    "overflows": [
+      {
+        "tag": "IMG",
+        "class": "paper-frame-overlay",
+        "left": -2,
+        "right": 377,
+        "width": 379
+      }
+    ],
+    "errors": []
+  }
+]

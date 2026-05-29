@@ -13,7 +13,6 @@
   <body>
     <header class="site-header" aria-label="Main navigation">
       <a class="brand" href="#top" aria-label="Sissy's home">
-        <img src="References/Logo.jpg" alt="Sissy's logo">
         <span>Sissy's</span>
       </a>
       <nav id="pageNav" class="nav-links" aria-label="Seitenbereiche">
@@ -34,7 +33,8 @@
       <section class="hero section-pink">
         <div class="hero-copy reveal">
           <p class="kicker">100% halal, handgemachte Potato Buns</p>
-          <h1>Smash it like Sissy's</h1>
+          <h1>Smash wie Sissy's</h1>
+          <img class="ornament hero-heart" src="Assets/ornaments/heart-pink.png" alt="" aria-hidden="true">
           <p class="hero-lede">
             Smashburger, Buttermilk Chicken, Loaded Fries und Cookies von der
             Herforder Str. 60 in Bielefeld.
@@ -51,26 +51,43 @@
         </div>
 
         <div class="hero-media reveal" aria-label="Featured food collage">
+          <img class="ornament hero-crown" src="Assets/ornaments/crown-pink.png" alt="" aria-hidden="true">
           <div class="hero-burger-frame">
             <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
           </div>
         </div>
 
         <aside class="hero-info reveal" aria-label="Restaurant details">
-          <div>
-            <span class="info-label">Adresse</span>
-            <strong>Herforder Str. 60</strong>
-            <span>33602 Bielefeld</span>
+          <div class="info-item">
+            <img class="info-icon" src="Assets/ornaments/pin-pink.png" alt="" aria-hidden="true">
+            <div>
+              <span class="info-label">Adresse</span>
+              <strong>Herforder Str. 60</strong>
+              <span>33602 Bielefeld</span>
+            </div>
           </div>
-          <div>
-            <span class="info-label">Küche</span>
-            <strong>Beef, Chicken, Fries</strong>
-            <span>Cookies frisch gebacken</span>
+          <div class="info-item">
+            <img class="info-icon" src="Assets/ornaments/clock-pink.png" alt="" aria-hidden="true">
+            <div>
+              <span class="info-label">Zeiten</span>
+              <strong>Mo-Do 17-23 Uhr</strong>
+              <span>Fr-Sa 15-23 Uhr</span>
+            </div>
           </div>
-          <div>
-            <span class="info-label">Bestellen</span>
-            <strong>Lieferung oder Abholung</strong>
-            <span>Wähle deine Plattform</span>
+          <div class="info-item">
+            <img class="info-icon info-icon-smile" src="Assets/ornaments/smile-black.png" alt="" aria-hidden="true">
+            <div>
+              <span class="info-label">Standard</span>
+              <strong>100% Halal</strong>
+              <span>Frisch gemacht</span>
+            </div>
+          </div>
+          <div class="info-item info-sticker-item">
+            <div class="halal-sticker" aria-label="100% Halal">
+              <img src="Assets/ornaments/halal-badge-blue.png" alt="" aria-hidden="true">
+              <span>100%</span>
+              <strong>Halal</strong>
+            </div>
           </div>
         </aside>
       </section>
@@ -96,30 +113,39 @@
         <div class="section-heading reveal">
           <p class="kicker">Sissy's Favoriten</p>
           <h2>Der erste Biss muss knallen.</h2>
+          <img class="ornament heading-heart" src="Assets/ornaments/heart-pink.png" alt="" aria-hidden="true">
           <a href="#menu" class="text-link">Ganzes Menü</a>
         </div>
         <div class="favorite-grid">
           <article class="favorite-card tilt-left reveal">
             <span class="price-pill">9 EUR</span>
-            <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+            <div class="favorite-media">
+              <img class="favorite-food" src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+            </div>
             <h3>Chili Cheese</h3>
             <p>Smash Beef, Cheddar, Jalapenos, Chili-Mayo und Käsesoße.</p>
           </article>
           <article class="favorite-card tilt-right reveal">
             <span class="price-pill">9 EUR</span>
-            <img src="Assets/generated/garlic-chicken.png" alt="Garlic Chicken Burger">
+            <div class="favorite-media">
+              <img class="favorite-food" src="Assets/generated/garlic-chicken.png" alt="Garlic Chicken Burger">
+            </div>
             <h3>Garlic Chicken</h3>
             <p>Buttermilk Chicken, Cheddar, Tomate, Zwiebeln und Knoblauchmayo.</p>
           </article>
           <article class="favorite-card tilt-left reveal">
             <span class="price-pill">11.5 EUR</span>
-            <img src="Assets/official/beef-melt.png" alt="Official Sissy's Beef Melt">
+            <div class="favorite-media">
+              <img class="favorite-food" src="Assets/official/beef-melt.png" alt="Official Sissy's Beef Melt">
+            </div>
             <h3>Beef Melt</h3>
             <p>Double smashed Beef, Potato Toast, Gurken und Burgersoße.</p>
           </article>
           <article class="favorite-card tilt-right reveal">
             <span class="price-pill">4.9 EUR</span>
-            <img src="Assets/generated/cookie-chip.png" alt="Chocolate chip cookie">
+            <div class="favorite-media">
+              <img class="favorite-food" src="Assets/generated/cookie-chip.png" alt="Chocolate chip cookie">
+            </div>
             <h3>Cookies</h3>
             <p>Frisch gebacken, weich in der Mitte und perfekt zum Schluss.</p>
           </article>
@@ -130,6 +156,7 @@
         <div class="builder-copy reveal">
           <p class="kicker">Bau dir dein Sissy's</p>
           <h2>Bau dein Sissy's.</h2>
+          <img class="ornament builder-heart" src="Assets/ornaments/heart-pink.png" alt="" aria-hidden="true">
           <p>
             Starte mit deinem Burger und mach daraus dein Menü mit Fries,
             Getränk, Extras und Dip.
@@ -167,21 +194,24 @@
       </section>
 
       <section class="proof section-white">
+        <img class="proof-burst proof-burst-left" src="Assets/ornaments/burst-blue.png" alt="" aria-hidden="true">
+        <img class="proof-burst proof-burst-right" src="Assets/ornaments/burst-blue-wide.png" alt="" aria-hidden="true">
+        <img class="proof-sparkle" src="Assets/ornaments/sparkle-pink.png" alt="" aria-hidden="true">
         <div class="proof-item reveal">
           <strong>100%</strong>
           <span>Halal</span>
         </div>
         <div class="proof-item reveal">
-          <strong>Potato</strong>
-          <span>Handgemachte Buns</span>
+          <strong>100%</strong>
+          <span>Handgemacht</span>
+        </div>
+        <div class="proof-item reveal">
+          <strong>4.8</strong>
+          <span>Google Bewertung</span>
         </div>
         <div class="proof-item reveal">
           <strong>5K+</strong>
-          <span>Instagram Follower</span>
-        </div>
-        <div class="proof-item reveal">
-          <strong>60</strong>
-          <span>Herforder Str.</span>
+          <span>Sissy's Fans</span>
         </div>
       </section>
 
@@ -200,10 +230,12 @@
         <div class="story-gallery reveal">
           <figure class="photo-frame large">
             <img src="Assets/generated/storefront.png" alt="Generated Sissy's storefront in Bielefeld style">
+            <img class="tape tape-a" src="Assets/ornaments/tape-pink.png" alt="" aria-hidden="true">
             <figcaption>Herforder Str. 60</figcaption>
           </figure>
           <figure class="photo-frame small rotate-a">
             <img src="Assets/generated/interior.png" alt="Generated pink Sissy's interior">
+            <img class="tape tape-b" src="Assets/ornaments/tape-pink.png" alt="" aria-hidden="true">
             <figcaption>Pinke Stühle, schwarze Wände</figcaption>
           </figure>
           <figure class="photo-frame small rotate-b product-frame">
@@ -230,7 +262,9 @@
 
         <div class="menu-board reveal">
           <article class="menu-card" data-category="burger">
-            <img src="Assets/official/cheeseburger.png" alt="Official Sissy's Classic Cheese Burger">
+            <div class="menu-thumb">
+              <img src="Assets/official/cheeseburger.png" alt="Official Sissy's Classic Cheese Burger">
+            </div>
             <div>
               <h3>Classic Cheese</h3>
               <p>Smashed Beef, Potato Bun, Cheddar, Gurken, Ketchup, Senf.</p>
@@ -238,7 +272,9 @@
             <strong>8 EUR</strong>
           </article>
           <article class="menu-card" data-category="burger">
-            <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+            <div class="menu-thumb">
+              <img src="Assets/official/chili-cheese.png" alt="Official Sissy's Chili Cheese Burger">
+            </div>
             <div>
               <h3>Chili Cheese</h3>
               <p>Cheddar, Jalapenos, Chili-Mayo, Mayo und Käsesoße.</p>
@@ -246,7 +282,9 @@
             <strong>9 EUR</strong>
           </article>
           <article class="menu-card" data-category="burger">
-            <img src="Assets/official/joppie-bacon.png" alt="Official Sissy's Joppie Bacon Burger">
+            <div class="menu-thumb">
+              <img src="Assets/official/joppie-bacon.png" alt="Official Sissy's Joppie Bacon Burger">
+            </div>
             <div>
               <h3>Joppie Bacon</h3>
               <p>Turkey Bacon, Tomate, Salat, Zwiebel, Mayo und Joppie Sauce.</p>
@@ -254,7 +292,9 @@
             <strong>9 EUR</strong>
           </article>
           <article class="menu-card" data-category="burger">
-            <img src="Assets/official/beef-melt.png" alt="Official Sissy's Beef Melt">
+            <div class="menu-thumb">
+              <img src="Assets/official/beef-melt.png" alt="Official Sissy's Beef Melt">
+            </div>
             <div>
               <h3>Beef Melt</h3>
               <p>Double smashed Beef, Toast, Cheddar, Gurken und Burgersoße.</p>
@@ -262,7 +302,9 @@
             <strong>11.5 EUR</strong>
           </article>
           <article class="menu-card" data-category="chicken">
-            <img src="Assets/generated/garlic-chicken.png" alt="Garlic Chicken Burger">
+            <div class="menu-thumb">
+              <img src="Assets/generated/garlic-chicken.png" alt="Garlic Chicken Burger">
+            </div>
             <div>
               <h3>Garlic Chicken</h3>
               <p>Buttermilk Chicken, Potato Bun, Cheddar und Knoblauchmayo.</p>
@@ -270,7 +312,9 @@
             <strong>9 EUR</strong>
           </article>
           <article class="menu-card" data-category="side">
-            <img src="Assets/generated/chili-fries.png" alt="Chili cheese fries">
+            <div class="menu-thumb">
+              <img src="Assets/generated/chili-fries.png" alt="Chili cheese fries">
+            </div>
             <div>
               <h3>Chili Cheese Fries</h3>
               <p>Fries, Cheddar, Käsesoße und Jalapenos.</p>
@@ -278,7 +322,9 @@
             <strong>5 EUR</strong>
           </article>
           <article class="menu-card" data-category="sweet">
-            <img src="Assets/generated/cookie-chip.png" alt="Birthday Cake Cookie">
+            <div class="menu-thumb">
+              <img src="Assets/generated/cookie-chip.png" alt="Birthday Cake Cookie">
+            </div>
             <div>
               <h3>Birthday Cake</h3>
               <p>Weicher Cookie mit Frosting, Sprinkles und Sissy's Energy.</p>
@@ -286,7 +332,9 @@
             <strong>4.9 EUR</strong>
           </article>
           <article class="menu-card" data-category="sweet">
-            <img src="Assets/generated/cookie-chip.png" alt="Bueno Cookie">
+            <div class="menu-thumb">
+              <img src="Assets/generated/cookie-chip.png" alt="Bueno Cookie">
+            </div>
             <div>
               <h3>Bueno</h3>
               <p>Bestseller-Cookie mit cremigem Topping und Chocolate Crunch.</p>
@@ -300,13 +348,24 @@
         <div class="section-heading reveal">
           <p class="kicker">Von Instagram bis zur Theke</p>
           <h2>Folgen für Food, Umbau und Updates.</h2>
+          <img class="ornament social-heart" src="Assets/ornaments/heart-pink.png" alt="" aria-hidden="true">
         </div>
         <div class="social-strip reveal">
-          <img src="Assets/generated/storefront.png" alt="Generated Sissy's storefront social frame">
-          <img src="Assets/generated/interior.png" alt="Generated Sissy's interior social frame">
-          <img src="Assets/official/chili-cheese.png" alt="Official Sissy's chili burger social frame">
-          <img src="Assets/generated/chili-fries.png" alt="Generated chili fries social frame">
-          <img src="Assets/generated/cookie-chip.png" alt="Generated cookie social frame">
+          <figure class="social-frame">
+            <img src="Assets/generated/storefront.png" alt="Generated Sissy's storefront social frame">
+          </figure>
+          <figure class="social-frame">
+            <img src="Assets/generated/interior.png" alt="Generated Sissy's interior social frame">
+          </figure>
+          <figure class="social-frame">
+            <img src="Assets/official/chili-cheese.png" alt="Official Sissy's chili burger social frame">
+          </figure>
+          <figure class="social-frame">
+            <img src="Assets/generated/chili-fries.png" alt="Generated chili fries social frame">
+          </figure>
+          <figure class="social-frame">
+            <img src="Assets/generated/cookie-chip.png" alt="Generated cookie social frame">
+          </figure>
         </div>
       </section>
 
